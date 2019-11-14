@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+CSS for Maintenance Page
+Date: 06/08/16
+Author: Shane McKinney (smckinney@jhancock.com) and Heather Ayvazian (hayvazian@jhancock.com) 
+Department: Digital Experience, JHI
+*/
+
+#five29-container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#five29-header {
+	padding-bottom: 15px;
+}
+
+#five29-logo529 {
+	padding-left: 40px;
+}
+
+#five29-header-nav {
+	text-align: right;
+}
+
+#five29-chalkboard {
+	background-image: url(../images/blackboard-tile@2x.jpg);
+}
+
+#five29-chalkboard p {
+	color: #FFFFFF;
+}
+
+#five29-chalkboard-body {
+	padding: 0 20px 0 15px;
+
+}
+
+#five29-openingp p {
+	font-size: 18px;
+}
+
+/* If need copy over the cart image, use as bg image like this 
+#five29-chart {
+	background-image: url(../images/costs-may-double-graph.png); 
+	width: 709px;
+	height: 410px; 
+}*/
+
+#five29-frame-left {
+	background-image: url(../images/left-frame@2x.jpg);
+	background-repeat: repeat-y;
+	height: 2970px;
+	width: 30px;
+}
+
+#five29-frame-right {
+	background-image: url(../images/right-frame@2x.jpg);
+	background-repeat: repeat-y;
+	height: 2970px;
+	width: 30px;
+	float: right;
+}
+
+#five29-disclosure {
+	padding-left: 90px;
+	color: #717576;
+}
+
+#five29-bottom-section {
+	padding: 40px 0 0 40px;
+}
+
+#five29-flow-graphic {
+	text-align: center;
+	padding-bottom: 65px;
+}
+
+/* STYLES */
+
+.no-left-margin {
+	margin-left: 0;
+}
+
+.less-margin-bottom {
+	margin-bottom: 10px;
+}
+
+.emphasize-font {
+	font-size: 1.77778rem;
+}
+
+.chalk-subhead {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.number-callouts {
+	color: #FFFFFF;
+	font-size: 25px;
+	padding-top: 0px;
+}
+
+.list-space {
+	padding-top: 40px;
+}
+
+.teal-pics {
+	text-align: center;
+	padding: 0 10px;
+}
+.fixed-height {
+	height: 250px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* FORM STYLES */
+
+.mktoForm .mktoAsterix {
+	padding-top: 15px !important;
+}
+
+input {
+	height: 36px !important;
+	width: 100% !important;
+	min-width: 250px !important;
+	border: 1 !important;
+	color: #4B4B4B !important;
+	padding-left: 12px;
+}
+
+textarea {
+	height: 100px !important;
+	width: 100% !important;
+	min-width: 550px !important;
+	border: 1 !important;
+	padding: none !important;
+}
+
+button {
+	max-width: 268px !important;
+	width: 100% !important;
+	height: 43px !important;
+	background: #002D5B !important;
+	border: none !important;
+	color: #fff !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	border-radius: 3px !important;
+	text-transform: uppercase !important;
+	font-family: "Roboto Slab";
+	letter-spacing: 0.1em;
+	float: left !important;
+}
+
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #002D5B;
+}
+
+h3 {
+	color: #002D5B;
+}
+
+h4 {
+	color: #002D5B;
+	font-size: 2.4rem;
+}
+
+h5 {
+	color: #005F67;
+}
+
+h6 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	color: #FFFFFF;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+a {
+	color: #002D5B;
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #C82300;
+}
+
+p {
+	font-size: 16px;
+}
+/* lists */
+
+#five29-footer ul {
+	list-style: none; 
+    margin-left: 0; 
+	list-style-type: square;
+}
+
+#five29-footer li {
+	display: inline;
+	margin: 0;
+	padding-right: 20px;
+	vertical-align: bottom; 
+}
+
+#five29-header ul {
+	list-style: none; 
+    margin-left: 0; 
+	list-style-type: square;
+	padding-top: 15px;
+}
+
+#five29-header li {
+	display: inline;
+	margin: 0;
+	padding-left: 30px;
+	vertical-align: bottom; 
+	font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+#five29-frame-left, #five29-frame-right, #five29-frame-bottom, #five29-frame-top {
+	display: none;
+	}
+
+#five29-header {
+	padding: 0 20px 0 20px;
+	text-align: center;
+	}
+
+#five29-header-nav {
+	text-align: center;
+	}
+
+}
+
+@media (max-width: 350px) {
+#five29-header li {
+	padding-left: 0;
+	display: block;
+	text-align: center;
+}
+
+#five29-chalkboard-body {
+	padding: 0 15px 0 20px;
+}
+
+#five29-footer li {
+	padding-left: 0;
+	display: block;
+	text-align: center;
+}
+
+#five29-bottom-section {
+	padding: 10px 15px 0 10px;
+}
+
+#five29-faq {
+	padding-top: 30px;
+}
+
+#five29-disclosure {
+	padding-left: 0px;
+}
+
+#five29-logo-bottom {
+	text-align: center;
+}
+
+.no-mobile {
+	display: none;
+}
+
+textarea {
+	min-width: 250px !important;
+}
+}
+
+
